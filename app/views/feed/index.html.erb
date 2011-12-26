@@ -1,0 +1,4 @@
+<h1><%= @user.username %> feed</h1>
+<% @recent_media_items.each do |media| %>
+<img src="<%= media.images.thumbnail.url%>">
+<% end%>
